@@ -1,18 +1,10 @@
 import random
 
-print("Welcome Players in the Dice Battle Game!")
-print("First to achieve 5 points will win the Game.\n")
-
-player1_name = input("Enter Player 1 name: ")
-player2_name = input("Enter Player 2 name: ")
-print()
-
-
+# Function to simulate rolling a dice
 def roll_dice():
     return random.randint(1, 6)
 
-
-def play_game():
+def play_game(player1_name, player2_name):
     player1 = 0
     player2 = 0
     rounds = 1
@@ -35,15 +27,10 @@ def play_game():
         else:
             print("It's a tie!\n")
 
-        print(
-            f"Score => {player1_name}: {player1} | {player2_name}: {player2}\n")
+        print(f"Score => {player1_name}: {player1} | {player2_name}: {player2}\n")
         rounds += 1
 
     if player1 > player2:
         print(f"Hurray {player1_name} won the game!")
     else:
         print(f"Hurray {player2_name} won the game!")
-
-
-if __name__ == "__main__":
-    play_game()
