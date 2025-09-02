@@ -1,5 +1,6 @@
 import random
 
+# Function to simulate rolling a dice
 def roll_dice():
     return random.randint(1, 6)
 
