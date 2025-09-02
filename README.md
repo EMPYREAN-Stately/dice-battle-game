@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🎲 Dice Battle Game
 
 A fun and simple **two-player dice game** built with **Python**. The first player to score **5 points wins**!
