@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎲 Dice Battle Game
 
 A fun and simple **two-player dice game** built with **Python**. The first player to score **5 points wins**!
@@ -65,3 +66,7 @@ Score => Alice: 1 | Bob: 0
 
 ## 🏷 License
 This project is open-source and available under the **MIT License**.
+=======
+# dice-battle-game
+Python Based Project (1)
+>>>>>>> 5bebc9b8e9a6f8d13479c850ce0c6026a4e3e9b5
